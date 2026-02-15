@@ -23,4 +23,4 @@ for page in urls:
     # print(vacancy_name,salary,skills,emp_name)
     all_data.append([vacancy_name, salary, description, skills_str, emp_name])
 
-filepath = excel(all_data, "table1")
+filepath = excel(all_data, "table1.xlsx")
